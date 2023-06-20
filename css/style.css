@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 * {
-  box-sizing: border-box;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #fafafa;
+  background: #fafafa;
   color: #4b4c5d;
 }
 
@@ -73,6 +73,7 @@ p {
   align-items: center;
 }
 .four-card .container .box {
+  background: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .four-card .container .box hr {
